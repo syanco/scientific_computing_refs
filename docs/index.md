@@ -1,3 +1,4 @@
+# Scientific Computing References, Guides, and Notes
 
 This site is a living repository of guides, references, notes, and other miscellanea relating to scientific computing. Likely, this is primarily a resource for myslef, but I've made it public in the event that it may prove useful to others. Currently, the site is quite sparse but it ~~will~~ might grow over time.
 
