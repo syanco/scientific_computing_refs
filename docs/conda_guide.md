@@ -171,7 +171,6 @@ If you want to create and manage environments on your HPC, well, just follow the
 If you have an environment from your local machine or from a colleage or team, and need to use it on an HPC, here are the steps:
 
 1. Transfer the environment.yml to your home directory.  For me this looks like:
-
 ```bash
 # run locally
 scp [environment.yml] [cluster]:[directory path]
@@ -196,6 +195,6 @@ Now you're up and running!
 
 ## Endnote
 
-If you found errors, have questions, or would like to see something added, please reach out.  You can contact me directly at scott.yanco [at] yale.ed.  This site was built with GitHub, so you can (I think...) use the features of the repository to do so.  The repo for this site lives here: https://github.com/syanco/scientific_computing_refs  You can file an issue if you found a problem.  If you want to contribute you could also use a [Pull Request to suggest an edit](https://docs.github.com/en/github/collaborating-with-pull-requests)!
+If you found errors, have questions, or would like to see something added, please reach out.  You can contact me directly at scott.yanco [at] yale.ed.  This site was built with GitHub, so you can also (I think...) use the features of the repository to do so.  The repo for this site lives here: [https://github.com/syanco/scientific_computing_refs](https://github.com/syanco/scientific_computing_refs)  You can file an issue if you found a problem.  If you want to contribute you could also use a [Pull Request to suggest an edit](https://docs.github.com/en/github/collaborating-with-pull-requests)!
 
 If you found this helpful, please let me know!  If/when appropriate, you can also cite this work!
