@@ -1,32 +1,32 @@
-Welcome to GitHub Pages Conda Guide
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+# Scientific Computing References, Guides, and Notes
 
-Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+This site is a living repository of guides, references, notes, and other miscellanea relating to scientific computing. Likely, this is primarily a resource for myslef, but I've made it public in the event that it may prove useful to others. Currently, the site is quite sparse but it ~~will~~ might grow over time.
 
-Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The goal here is to describe/document tools, workflows, systems, approaches/phiolosophies etc. for scientific computing.  It's primarily not about domain-specific methods or tools, but instead focusses on fairly widely applicable resources for general scientific computing.  Not only are strong computational skills necessary across pretty much all the STEM fields, but there is growing concesus that open, reproducible science is paramounts, and enabled by such computational approaches.  Much of what I describe here is relating to attempts to make workflows more open, reproducible, and useful to others.
 
-Syntax highlighted code block	
+---
+## Questions, Comments, Collaborations, Etc.
+If you have questions or found mistakes/errors/problems, or for any other reason, feel free to reach out to me directly (contact info below).
 
-# Header 1	
-## Header 2	
-### Header 3	
+You can also communicate with me via GitHub.  This site is built from a GitHub repository which can be found at: https://github.com/syanco/scientific_computing_refs/.  Specifically:  
+-  Use the 'Issues' tab to note problems, errors, etc.  
+-  If you feel compelled to collaborate on any of the content on this site, you can use the 'Pull Request' functionality to suggest modifications to the site. Details on how to do that [here](https://docs.github.com/en/github/collaborating-with-pull-requests).
 
-- Bulleted	
-- List	
+Finally, if you found anything on this site useful - please let me know, I value that feedback and it helps me justify the time spent making these resources publically available.  Similarly, if you use anything on this site in your own work (and I hope that you do!), please cite/acknowledge it as appropriate.
 
-1. Numbered	
-2. List	
+**Contact:**
 
-**Bold** and _Italic_ and `Code` text	
+Scott Yanco
+Postdoctoral Associate
+[Max Planck - Yale Center for Biodiversity Movement and Global Change](https://mpyc.yale.edu/)  
+[Department of Ecology and Evolutionary Biology, Yale University](https://eeb.yale.edu/)
+[Jetz Lab](https://jetzlab.yale.edu/)
+https://scottyanco.com
 
-[Link](url) and ![Image](src)	
-For more details see GitHub Flavored Markdown.
+email:  scott.yanco [at] yale.edu
+---
 
-Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your repository settings. The name of this theme is saved in the Jekyll _config.yml configuration file.
+## Resources
 
-Support or Contact
-Having trouble with Pages? Check out our documentation or contact support and we’ll help you sort it out. 0 comments on commit f892b9f @syanco
-
-[Conda Guide](docs/conda_guide.md)
+**[Conda Guide](conda_guide.md)**
+    Guide to using `conda`, `mamba`, and `boa` for reproducible package management.
