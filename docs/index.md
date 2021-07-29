@@ -24,9 +24,10 @@ Postdoctoral Associate
 https://scottyanco.com
 
 email:  scott.yanco [at] yale.edu
+
 ---
 
 ## Resources
 
-**[Conda Guide](conda_guide.md)**
-    Guide to using `conda`, `mamba`, and `boa` for reproducible package management.
+_**[Conda Guide](conda_guide.md)**_  
+Guide to using `conda`, `mamba`, and `boa` for reproducible package management.
