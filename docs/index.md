@@ -19,9 +19,9 @@ Finally, if you found anything on this site useful - please let me know, I value
 Scott Yanco
 Postdoctoral Associate
 [Max Planck - Yale Center for Biodiversity Movement and Global Change](https://mpyc.yale.edu/)  
-[Department of Ecology and Evolutionary Biology, Yale University](https://eeb.yale.edu/)
-[Jetz Lab](https://jetzlab.yale.edu/)
-https://scottyanco.com
+[Department of Ecology and Evolutionary Biology, Yale University](https://eeb.yale.edu/)  
+[Jetz Lab](https://jetzlab.yale.edu/)  
+https://scottyanco.com  
 
 email:  scott.yanco [at] yale.edu
 
