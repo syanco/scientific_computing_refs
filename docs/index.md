@@ -2,7 +2,7 @@
 
 This site is a living repository of guides, references, notes, and other miscellanea relating to scientific computing. Likely, this is primarily a resource for myslef, but I've made it public in the event that it may prove useful to others. Currently, the site is quite sparse but it ~~will~~ might grow over time.
 
-The goal here is to describe/document tools, workflows, systems, approaches/phiolosophies etc. for scientific computing.  It's primarily not about domain-specific methods or tools, but instead focusses on fairly widely applicable resources for general scientific computing.  Not only are strong computational skills necessary across pretty much all the STEM fields, but there is growing concesus that open, reproducible science is paramounts, and enabled by such computational approaches.  Much of what I describe here is relating to attempts to make workflows more open, reproducible, and useful to others.
+The goal here is to describe/document tools, workflows, systems, approaches/phiolosophies etc. for scientific computing.  It's primarily not about domain-specific methods or tools, but instead focusses on fairly widely applicable resources for general scientific computing.  Not only are strong computational skills necessary across pretty much all the STEM fields, but there is growing concesus that open, reproducible science is paramount, and enabled by such computational approaches.  Much of what I describe here is relating to attempts to make workflows more open, reproducible, and useful to others.
 
 ---
 ## Questions, Comments, Collaborations, Etc.
@@ -17,7 +17,7 @@ Finally, if you found anything on this site useful - please let me know, I value
 **Contact:**
 
 Scott Yanco
-Postdoctoral Associate
+Postdoctoral Associate  
 [Max Planck - Yale Center for Biodiversity Movement and Global Change](https://mpyc.yale.edu/)  
 [Department of Ecology and Evolutionary Biology, Yale University](https://eeb.yale.edu/)  
 [Jetz Lab](https://jetzlab.yale.edu/)  
