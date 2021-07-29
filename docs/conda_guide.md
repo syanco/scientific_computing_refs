@@ -1,3 +1,9 @@
+---
+description: null
+subtitle: null
+---
+
+
 # Guide: Using `conda`, `mamba`, and `boa` for reproducible package management
 
 This is a living document describing my current thinking and methods for reproducible package management. The basic goal is to use `conda` (or `conda`-like systems) to control computing environments. This has several benefits:  
