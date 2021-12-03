@@ -1,5 +1,4 @@
-# Additional Resources for **Life history diversity in terrestrial animals is associated with metabolic response to seasonally fluctuating resources
-**
+# Additional Resources for **Life history diversity in terrestrial animals is associated with metabolic response to seasonally fluctuating resources**
 
 This site stores additional information associated with the presentation:
 
@@ -11,4 +10,6 @@ The manuscript associated with this poster is currently under review and, for no
 
 # Poster References
 
-^1 Kooijman, S. A. L. M. 2010. Dynamic Energy Budget Theory for Metabolic Organisation. Cambridge University Press.
+<sup>1</sup>Kooijman, S. A. L. M. 2010. Dynamic Energy Budget Theory for Metabolic Organisation. Cambridge University Press.
+
+<sup>2</sup>Marques, G. M., S. Augustine, K. Lika, L. Pecquerie, T. Domingos, and S. A. L. M. Kooijman. 2018. The AmP project: Comparing species on the basis of dynamic energy budget parameters. PLoS computational biology 14:e1006100.
