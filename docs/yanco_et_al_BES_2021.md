@@ -1,4 +1,6 @@
-# Additional Resources for **Life history diversity in terrestrial animals is associated with metabolic response to seasonally fluctuating resources**
+---
+Title: Additional Resources for **Life history diversity in terrestrial animals is associated with metabolic response to seasonally fluctuating resources**
+---
 
 This site stores additional information associated with the presentation:
 
