@@ -34,3 +34,6 @@ Guide to using `conda`, `mamba`, and `boa` for reproducible package management.
 
 _**[Quick Tricks for R](quick_R_tricks.md)**_  
 Assorted tips and tricks for R computing (not much here for now...)
+
+_**[BASH Reminders](bash-reminders.md)**_  
+Reminders for how to do thuings in bash that I always forget how to do (also fairly minimal for now...)
