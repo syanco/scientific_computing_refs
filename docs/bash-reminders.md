@@ -22,3 +22,37 @@ Finally you can reverse this to negtate the match and instead delete everything 
 ```
 find . -type f ! -name '[pattern to match]' -delete 
 ```
+## Arrays stored as variables
+
+I always forget how to store things in an array and - especially - how to check the array to make sure it contains everything I think it does.
+
+*Storing to array*:
+
+The only thing to remember here really is how to get the output of some function into an array - it takes a weird combo of parenthesis and `$`:
+
+```
+x=($([function]))
+```
+
+*Printing and array*:
+
+Let's make a simple array to play with:
+
+```
+x=(1 2 3 4 5)
+```
+
+Running `echo $x` will simply return "1".  Which is objectively a weird default behavior.  Instead we need to use subsetting (square braces) to ask for the entire array explcitly using `@` in the index.  But wait!  If you run `echo $x[@]` it will return "1[@]".  For reasons I do not understand, we need to wrap the x and the subset in curly braces...
+```
+echo ${x[@]}
+```
+Will print out th whole array.  Kind of  alot of work to print the contents of a named variable if you ask me.
+
+*Check the length of an arry*:
+
+To get the length of an array we take the code a bove and put a `#` in front of the array name:
+
+```
+echo ${#x[@]}
+```
+
