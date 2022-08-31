@@ -4,7 +4,9 @@ Reminders for code snippets and approaches for doing things in bash that I alway
 
 ## Bulk File Actions
 
-I often need to bulk delete, move, copy (etc.) many files.  This is of course pretty easy to do if you want the **entire** directory (just put `*` as the file arg to imply "everything in the current directory).  But I can never remember how to do this using regex to select certainf iles (super useful for example when I have an output directory containing updated model outputs and i want to select by the date string in the filename...).  Here's how:
+### Delete a set of files
+
+I often need to bulk delete, move, copy (etc.) many files.  This is of course pretty easy to do if you want the **entire** directory (just put `*` as the file arg to imply "everything in the current directory).  But I can never remember how to do this using regex to select certain files (super useful for example when I have an output directory containing updated model outputs and i want to select by the date string in the filename...).  Here's how:
 
 You can use the find command to do this pretty easily - you can read this as 'find files here with filename matching some string and delete them. 
 ```
@@ -22,6 +24,21 @@ Finally you can reverse this to negtate the match and instead delete everything 
 ```
 find . -type f ! -name '[pattern to match]' -delete 
 ```
+
+### Count files
+
+Sometimes it's useful to count the number of files in a directory.  This is pretty simple  - just list the files then pipe to the ord count command witht he lines option (this will list all the files and then count the lines of that list:
+
+```
+ls | wc -l
+```
+
+We can also count a subset of files in a directory by matching this code with the find code we did above **(but get rid of the `-delete` flag...)**.
+
+```
+find . -type f -name '*_5-20.rdata' | wc -l
+```
+
 ## Arrays stored as variables
 
 I always forget how to store things in an array and - especially - how to check the array to make sure it contains everything I think it does.
