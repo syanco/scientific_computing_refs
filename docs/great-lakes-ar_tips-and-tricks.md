@@ -73,6 +73,15 @@ scp -r -O [from] [to]
 scp -r -O syanco@greatlakes-xfer.arc-ts.umich.edu:./project/groundbreaking_science_project .
 ```
 
+## Storage
+
+The home directory (`~` from the login node) caps out at 80GB.  At least for me that's (somehow??!!) not enought.  We also have 10TB on Turbo.  That is directly accessible from the cluster at `/nfs/turbo/seas-bcweeksturbo`.  So to get to that go to:
+
+```
+cd /nfs/turbo/seas-bcweeksturbo
+```
+#### TODO:  Scott Add Weeks Lab directory structure and standards here.
+
 ## Reports and Account Status
 
 ### See full job names
