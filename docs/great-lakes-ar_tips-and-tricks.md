@@ -73,7 +73,7 @@ scp -r -O [from] [to]
 scp -r -O syanco@greatlakes-xfer.arc-ts.umich.edu:./project/groundbreaking_science_project .
 ```
 
-## Checking Job Status
+## Reports and Account Status
 
 ### See full job names
 
@@ -86,3 +86,20 @@ squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
 You can change the numbers to add/subtract from column character limits...
 
 #### TODO:  I think there's a way to put something like this as an alias in `.bashrc`...
+
+### Checking personal Storage
+
+This checks how much space is used in your home directory on Great Lakes (there is way more space on Turbo)
+
+```
+home-quota -u [uniqname]
+home-quota -u syanco
+```
+
+### Checking CPU Usage
+
+The command below will report total CPU minutes used by user:
+
+```
+sreport cluster UserUtilizationByAccount account=bcweeks0
+```
