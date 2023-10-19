@@ -72,3 +72,17 @@ scp -r -O [from] [to]
 
 scp -r -O syanco@greatlakes-xfer.arc-ts.umich.edu:./project/groundbreaking_science_project .
 ```
+
+## Checking Job Status
+
+### See full job names
+
+The basic way to see all your running jobs is: `squeue --me`.  Unfortunately, this abbreviates the job name column too much...  This bit of code is an ugly way to fix it:
+
+``` 
+squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
+```
+
+You can change the numbers to add/subtract from column character limits...
+
+#### TODO:  I think there's a way to put something like this as an alias in `.bashrc`...
