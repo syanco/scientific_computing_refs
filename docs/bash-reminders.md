@@ -73,3 +73,17 @@ To get the length of an array we take the code a bove and put a `#` in front of 
 echo ${#x[@]}
 ```
 
+
+## Edit PATH
+
+Sometimes you need to add directories to PATH so that you can call filles in that location as command line executables.  Do that with:
+
+```
+export PATH=$PATH:[filepath to add]
+```
+
+An example of this, on Mac - homebrew installed R goes to export `/usr/local/bin` which apparently not on path, so to add that, I ran:
+
+```
+export PATH=$PATH:/usr/local/bin
+```
