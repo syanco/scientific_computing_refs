@@ -19,6 +19,27 @@ Host greatlakes
      User [uniquename]
 ```
 
+## Running Jobs
+
+### Interactive Jobs
+
+```
+salloc --account=bcweeks0 --mem-per-cpu=10GB --cpus-per-task=1
+```
+
+### Using R
+
+R can be loaded with `module load R`.  There are some libraries pre-installed as modules that I basically load every time I want to use R - thus, I run the folliwing in all my slurm scripts and immediately after starting an interactive job:
+
+```
+module load R
+module load Rgeospatial
+module load Rtidyverse
+```
+
+
+#### TMUX
+**TODO**
 
 ## File transfers
 
